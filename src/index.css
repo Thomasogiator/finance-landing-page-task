@@ -15,14 +15,20 @@ code {
     monospace;
 }
 
-.page-background{
+.switch{
+  margin-bottom: 1rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-background{
   background-color: #F8FDFA;
-  /* height: 100vh; */
   padding: 120px 0;
   position: relative;
+}
+
+.dark-page{
+  background-color: #101010 !important;
 }
 
 .background-img{
@@ -91,6 +97,10 @@ code {
   color: #2E2E2E;
 }
 
+.dark-mode-finance{
+  color: #EEEEEE !important;
+}
+
 .main-background{
   width: 300px;
   flex-shrink: 0;
@@ -122,6 +132,10 @@ code {
   line-height: 100%;
   letter-spacing: 0%;
   color: #263238;
+}
+
+.dark-mode-h2{
+  color: #D2D2D2 !important;
 }
 
 .about-investment p{
